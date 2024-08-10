@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  color: #ffff;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto 317px auto;
+  grid-template-rows: 100px 780px 100px;
+  place-content: center;
+}
+
+.card {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border-radius: 5px;
+}
+
+.card-content {
+  background-color: #1A1B21;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-image {
+  height: 317px;
+}
+
+.profile-text {
+  padding: 20px;
+}
+
+.profile-name {
+  font-size: 25px;
+}
+
+.profile-role {
+  font-size: 13px;
+  color: #F3BF99;
+  padding: 8px 0;
+  font-weight: 400;
+}
+
+.profile-website {
+  font-size: 10px;
+  color: #CCCCCC;
+  margin-bottom: 5px;
+}
+
+.buttons {
+  width: 100px;
+  height: 34px;
+  margin: 10px;
+  border: none;
+  border-width: 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.card-info {
+  display: grid;
+  gap: 20px;
+  text-align: left;
+  margin: 20px 30px;
+}
+
+.about > h2 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-size: 20px;;
+}
+
+.about > p {
+  font-size: 10px;
+  line-height: 15px;
+  color: #DCDCDC;
+}
+
+.interest > h2 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-size: 20px;;
+}
+
+.interest > p {
+  font-size: 10px;
+  line-height: 15px;
+  color: #DCDCDC;
+}
+
+.footer {
+  padding: 20px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #161619;
+  min-height: 65px;
+  border-radius: 0 0 5px 5px;
+}
+
+.icon {
+  width: 20px;
+  border-radius: 5px;
+}
+
+
+
+
+
